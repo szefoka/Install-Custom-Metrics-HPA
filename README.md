@@ -1,6 +1,7 @@
 # Install-Custom-Metrics-HPA
 
 Kubernetes HP with Custom Metrics
+Kubernetes version: 1.22.4
 
 ## Install Helm3
 ```
