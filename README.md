@@ -3,10 +3,6 @@
 Kubernetes HP with Custom Metrics
 Kubernetes version: 1.22.4
 
-## Install Helm3
-```
-curl -sSLf https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
-```
 ## Install Metrics-Server
 ```
 git clone https://github.com/kubernetes-sigs/metrics-server.git
@@ -75,6 +71,12 @@ Finally issue
 kubectl apply -f ./
 ```
 ## Install Istio (Optional)
+
+### Install Helm3
+```
+curl -sSLf https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
+```
+
 ```
 git clone https://github.com/istio/istio.git
 git checkout release-1.10.4-patch
