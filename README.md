@@ -76,7 +76,7 @@ kubectl apply -f ./
 ```
 curl -sSLf https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
 ```
-
+Install istio components with Helm
 ```
 git clone https://github.com/istio/istio.git
 git checkout release-1.10.4-patch
