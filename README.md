@@ -79,7 +79,7 @@ curl -sSLf https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
 Install istio components with Helm
 ```
 git clone https://github.com/istio/istio.git
-git checkout release-1.10.4-patch
+git checkout release-1.11.1-patch
 kubectl create namespace istio-system
 helm install istio-base manifests/charts/base -n istio-system --set global.jwtPolicy=first-party-jwt 
 helm install istiod manifests/charts/istio-control/istio-discovery -n istio-system --set global.jwtPolicy=first-party-jwt 
